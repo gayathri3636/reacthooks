@@ -1,14 +1,15 @@
 import React from 'react';
-import AddList from './components/addList';
-import RenderList from './components/renderList';
-import Login from './components/login';
-import Register from './components/register';
+import {BrowserRouter as Router} from 'react-router-dom';
+import BaseRouter from './routes/index';
+import Home from './components/Home';
+
 function App() {
   return (
-    <div className="App">
-      {/* <AddList /> */}
-      {/* <Login /> */}
-      <Register />
+    <div>
+      <Router>
+        <Home/>
+        <BaseRouter />
+      </Router>
     </div>
   );
 }

@@ -16,6 +16,7 @@ const [user, setUser] = useState({username: "", password: ""})
             <Form.Group>
                 <Form.Label>Username</Form.Label>
                 <Form.Control
+                className="smallerinput"
                 type="text"
                 placeholder="Enter username"
                 name="username"
