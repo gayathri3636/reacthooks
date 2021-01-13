@@ -9,7 +9,7 @@ export default function Home() {
                 <Nav className="mr-auto">
                     <Nav.Link><Link to="/login">Login</Link></Nav.Link>
                     <Nav.Link><Link to = "/register">Register</Link></Nav.Link>
-                    <Nav.Link><Link to="/movieslist">Movies</Link></Nav.Link>
+                    <Nav.Link><Link to="/flagslist">Flags</Link></Nav.Link>
                 </Nav>
                 <Form inline>
                     <FormControl type="text" placeholder="search" className="mr-sm-2"></FormControl>

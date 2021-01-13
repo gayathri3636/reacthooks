@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import {Card} from 'react-bootstrap';
 import Home from './Home';
 
-export default function Movielist() {
+export default function Flagslist() {
     const [value, setvalue] = useState([]);
     const formbody = {
         query:`query {
