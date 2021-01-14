@@ -12,6 +12,10 @@ export default function HookMouse() {
     useEffect(()=>{
         console.log('useeffect called')
         window.addEventListener('mousemove', logPosition)
+        return()=>{
+            console.log('component unmount called')
+            window.removeEventListener('mousemove', logPosition)
+        }
     },[])
     return (
         <div>
