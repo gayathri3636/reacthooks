@@ -4,8 +4,9 @@ import './App.css';
 // import UseStateCounterThree from './components/UseStateObjects';
 // import UsestateArrays from './components/useState/UsestateArrays';
 // import Classcounterone from './components/useEffect/Classcounterone';
-import FunctionalCounter from './components/useEffect/FunctionalCounter';
-
+// import FunctionalCounter from './components/useEffect/FunctionalCounter';
+// import Classcounter2 from './components/useEffect/Classcounter2';
+import FunctionalCounter2 from './components/useEffect/HookCounter2';
 function App() {
   return (
     <div className="App">
@@ -14,7 +15,9 @@ function App() {
       {/* <UseStateCounterThree /> */}
       {/* <UsestateArrays /> */}
       {/* <Classcounterone /> */}
-      <FunctionalCounter />
+      {/* <FunctionalCounter /> */}
+      {/* <Classcounter2 /> */}
+      <FunctionalCounter2 />
     </div>
   );
 }
