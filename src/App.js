@@ -1,10 +1,12 @@
 import './App.css';
-import UsestateCounter from './components/usestateCounter';
+// import UsestateCounter from './components/usestateCounter';
+import UseStateCounterTwo from './components/UseStateCounterTwo';
 
 function App() {
   return (
     <div className="App">
-      <UsestateCounter />
+      {/* <UsestateCounter /> */}
+      <UseStateCounterTwo />
     </div>
   );
 }
