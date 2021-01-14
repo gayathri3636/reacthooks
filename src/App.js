@@ -6,7 +6,10 @@ import './App.css';
 // import Classcounterone from './components/useEffect/Classcounterone';
 // import FunctionalCounter from './components/useEffect/FunctionalCounter';
 // import Classcounter2 from './components/useEffect/Classcounter2';
-import FunctionalCounter2 from './components/useEffect/HookCounter2';
+// import FunctionalCounter2 from './components/useEffect/HookCounter2';
+// import ClassMouse from './components/useEffect/ClassMouse';
+import HookMouse from './components/useEffect/HookMouse';
+
 function App() {
   return (
     <div className="App">
@@ -17,7 +20,9 @@ function App() {
       {/* <Classcounterone /> */}
       {/* <FunctionalCounter /> */}
       {/* <Classcounter2 /> */}
-      <FunctionalCounter2 />
+      {/* <FunctionalCounter2 /> */}
+      {/* <ClassMouse /> */}
+      <HookMouse />
     </div>
   );
 }
