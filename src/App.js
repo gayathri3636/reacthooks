@@ -1,10 +1,10 @@
 import './App.css';
-import DataFetching2 from './components/useEffect/DataFetching2';
+import DataFetching3 from './components/useEffect/DataFetching3';
 
 function App() {
   return (
     <div className="App">
-      <DataFetching2/>
+      <DataFetching3/>
     </div>
   );
 }
