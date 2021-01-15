@@ -1,10 +1,13 @@
-import React from 'react'
+import React,{useContext} from 'react'
 import {userContext, channelContext} from './App';
 
 export default function ComponentF() {
+    const user = useContext(userContext)
+    const channel = useContext(channelContext)
+
     return (
         <div>
-            <userContext.Consumer>
+            {/* <userContext.Consumer>
                 {user => {
                     return (
                         <channelContext.Consumer>
@@ -16,8 +19,10 @@ export default function ComponentF() {
                         </channelContext.Consumer>
                     )
                 }}
-            </userContext.Consumer>
-            
+            </userContext.Consumer> */}
+
+            {/*The other way of doing it is like below code*/}
+            {user}-{channel}
         </div>
     )
 }
