@@ -1,10 +1,11 @@
 import './App.css';
-import DataFetching3 from './components/useEffect/DataFetching3';
+import Apps from './components/useContext/App';
+import React from 'react';
 
 function App() {
   return (
     <div className="App">
-      <DataFetching3/>
+      <Apps/>
     </div>
   );
 }
